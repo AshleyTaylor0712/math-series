@@ -1,8 +1,8 @@
 import pytest
 
-from series import fibonacci
-from series import lucas
-from series import sum_series
+from math_series.series import fibonacci
+from math_series.series import lucas
+from math_series.series import sum_series
 
 def test_fib_0():
     actual = fibonacci(0)
